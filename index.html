@@ -12,8 +12,63 @@
 
     </header> <!-- Andres -->
 
-    <main class="catalogo"> <!-- Alejo -->
-
+    <main class="catalogo container py-4">
+        <!-- Filtros -->
+        <div class="catalogo__filtros">
+            <div class="catalogo__filtro-grupo">
+                <h3 class="catalogo__filtro-titulo">Género</h3>
+                <div class="catalogo__botones">
+                    <button class="catalogo__boton catalogo__boton--activo" data-filtro="genero" data-valor="hombre">Hombre</button>
+                    <button class="catalogo__boton" data-filtro="genero" data-valor="mujer">Mujer</button>
+                </div>
+            </div>
+            
+            <div class="catalogo__filtro-grupo">
+                <h3 class="catalogo__filtro-titulo">Tipo</h3>
+                <div class="catalogo__botones">
+                    <button class="catalogo__boton catalogo__boton--activo" data-filtro="tipo" data-valor="todos">Todos</button>
+                    <button class="catalogo__boton" data-filtro="tipo" data-valor="camisetas">Camisetas</button>
+                    <button class="catalogo__boton" data-filtro="tipo" data-valor="pantalones">Pantalones</button>
+                </div>
+            </div>
+            
+            <div class="catalogo__filtro-grupo">
+                <h3 class="catalogo__filtro-titulo">Talla</h3>
+                <div class="catalogo__botones">
+                    <button class="catalogo__boton catalogo__boton--activo" data-filtro="talla" data-valor="todas">Todas</button>
+                    <button class="catalogo__boton" data-filtro="talla" data-valor="s">S</button>
+                    <button class="catalogo__boton" data-filtro="talla" data-valor="m">M</button>
+                    <button class="catalogo__boton" data-filtro="talla" data-valor="l">L</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contenedor del Catálogo -->
+        <div class="catalogo__container">
+            <!-- Navegación del catálogo -->
+            <div class="catalogo__navegacion">
+                <button class="catalogo__nav-boton catalogo__nav-boton--prev" aria-label="Anterior página">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="catalogo__paginas">
+                    <span class="catalogo__pagina-actual">1</span>
+                    <span>/</span>
+                    <span class="catalogo__pagina-total">2</span>
+                </div>
+                <button class="catalogo__nav-boton catalogo__nav-boton--next" aria-label="Siguiente página">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Tarjetas de productos -->
+            <div class="catalogo__productos row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <!-- Las tarjetas se generan con JS -->
+            </div>
+        </div>
     </main>
 
     <section class="tecnologias"> <!-- MJ -->
