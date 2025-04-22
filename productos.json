@@ -22,7 +22,7 @@
         "id": 3,
         "nombre": "Blusa Futurista",
         "precio": 78.990,
-        "imagen": "./IMAGENES/producto3.jpg",
+        "imagen": "./IMAGENES/producto3.webp",
         "genero": "mujer",
         "tipo": "camisetas",
         "talla": ["s", "m"]
@@ -31,25 +31,25 @@
         "id": 4,
         "nombre": "Leggings Neón",
         "precio": 39.900,
-        "imagen": "./IMAGENES/producto4.jpg",
+        "imagen": "./IMAGENES/producto4.webp",
         "genero": "mujer",
         "tipo": "pantalones",
         "talla": ["s", "m", "l"]
       },
       {
         "id": 5,
-        "nombre": "Chaqueta Digital",
+        "nombre": "Conjunto Digital",
         "precio": 79.900,
         "imagen": "./IMAGENES/producto5.jpg",
-        "genero": "hombre",
+        "genero": "mujer",
         "tipo": "chaquetas",
         "talla": ["m", "l"]
       },
       {
         "id": 6,
-        "nombre": "Vestido Holográfico",
+        "nombre": "Sudadera Holográfico",
         "precio": 59.900,
-        "imagen": "./IMAGENES/producto6.jpg",
+        "imagen": "./IMAGENES/producto6.png",
         "genero": "mujer",
         "tipo": "vestidos",
         "talla": ["s", "m"]
@@ -65,28 +65,28 @@
       },
       {
         "id": 8,
-        "nombre": "Falda Tecnológica",
-        "precio": 42.99,
-        "imagen": "./IMAGENES/producto8.jpg",
-        "genero": "mujer",
+        "nombre": "Sudadera licrada",
+        "precio": 42.900,
+        "imagen": "./IMAGENES/producto8.webp",
+        "genero": "hombre",
         "tipo": "faldas",
         "talla": ["s", "m", "l"]
       },
       {
         "id": 9,
         "nombre": "Camiseta LED",
-        "precio": 32.99,
-        "imagen": "./IMAGENES/producto9.jpg",
+        "precio": 32.900,
+        "imagen": "./IMAGENES/producto9.jpeg",
         "genero": "hombre",
         "tipo": "camisetas",
         "talla": ["m", "l"]
       },
       {
         "id": 10,
-        "nombre": "Jeans Smart",
+        "nombre": "Smart Sport Hoodie",
         "precio": 54.99,
-        "imagen": "./IMAGENES/producto10.jpg",
-        "genero": "mujer",
+        "imagen": "./IMAGENES/producto10.webp",
+        "genero": "hombre",
         "tipo": "pantalones",
         "talla": ["s", "m"]
       },
@@ -103,7 +103,7 @@
         "id": 12,
         "nombre": "Top Espacial",
         "precio": 29.99,
-        "imagen": "./IMAGENES/producto12.jpg",
+        "imagen": "./IMAGENES/producto12.webp",
         "genero": "mujer",
         "tipo": "camisetas",
         "talla": ["s", "l"]
