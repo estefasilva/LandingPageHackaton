@@ -22,7 +22,11 @@
         "id": 3,
         "nombre": "Blusa Futurista",
         "precio": 78.990,
+<<<<<<< HEAD
         "imagen": "./IMAGENES/producto3.jpg",
+=======
+        "imagen": "./IMAGENES/producto3.webp",
+>>>>>>> origin/RamaMJ
         "genero": "mujer",
         "tipo": "camisetas",
         "talla": ["s", "m"]
@@ -31,25 +35,42 @@
         "id": 4,
         "nombre": "Leggings Neón",
         "precio": 39.900,
+<<<<<<< HEAD
         "imagen": "./IMAGENES/producto4.jpg",
+=======
+        "imagen": "./IMAGENES/producto4.webp",
+>>>>>>> origin/RamaMJ
         "genero": "mujer",
         "tipo": "pantalones",
         "talla": ["s", "m", "l"]
       },
       {
         "id": 5,
+<<<<<<< HEAD
         "nombre": "Chaqueta Digital",
         "precio": 79.900,
         "imagen": "./IMAGENES/producto5.jpg",
         "genero": "hombre",
+=======
+        "nombre": "Conjunto Digital",
+        "precio": 79.900,
+        "imagen": "./IMAGENES/producto5.jpg",
+        "genero": "mujer",
+>>>>>>> origin/RamaMJ
         "tipo": "chaquetas",
         "talla": ["m", "l"]
       },
       {
         "id": 6,
+<<<<<<< HEAD
         "nombre": "Vestido Holográfico",
         "precio": 59.900,
         "imagen": "./IMAGENES/producto6.jpg",
+=======
+        "nombre": "Sudadera Holográfico",
+        "precio": 59.900,
+        "imagen": "./IMAGENES/producto6.png",
+>>>>>>> origin/RamaMJ
         "genero": "mujer",
         "tipo": "vestidos",
         "talla": ["s", "m"]
@@ -65,28 +86,47 @@
       },
       {
         "id": 8,
+<<<<<<< HEAD
         "nombre": "Falda Tecnológica",
         "precio": 42.99,
         "imagen": "./IMAGENES/producto8.jpg",
         "genero": "mujer",
+=======
+        "nombre": "Sudadera licrada",
+        "precio": 42.900,
+        "imagen": "./IMAGENES/producto8.webp",
+        "genero": "hombre",
+>>>>>>> origin/RamaMJ
         "tipo": "faldas",
         "talla": ["s", "m", "l"]
       },
       {
         "id": 9,
         "nombre": "Camiseta LED",
+<<<<<<< HEAD
         "precio": 32.99,
         "imagen": "./IMAGENES/producto9.jpg",
+=======
+        "precio": 32.900,
+        "imagen": "./IMAGENES/producto9.jpeg",
+>>>>>>> origin/RamaMJ
         "genero": "hombre",
         "tipo": "camisetas",
         "talla": ["m", "l"]
       },
       {
         "id": 10,
+<<<<<<< HEAD
         "nombre": "Jeans Smart",
         "precio": 54.99,
         "imagen": "./IMAGENES/producto10.jpg",
         "genero": "mujer",
+=======
+        "nombre": "Smart Sport Hoodie",
+        "precio": 54.99,
+        "imagen": "./IMAGENES/producto10.webp",
+        "genero": "hombre",
+>>>>>>> origin/RamaMJ
         "tipo": "pantalones",
         "talla": ["s", "m"]
       },
@@ -103,7 +143,11 @@
         "id": 12,
         "nombre": "Top Espacial",
         "precio": 29.99,
+<<<<<<< HEAD
         "imagen": "./IMAGENES/producto12.jpg",
+=======
+        "imagen": "./IMAGENES/producto12.webp",
+>>>>>>> origin/RamaMJ
         "genero": "mujer",
         "tipo": "camisetas",
         "talla": ["s", "l"]
