@@ -3,25 +3,25 @@
       {
         "id": 1,
         "nombre": "Camiseta Cyberpunk",
-        "precio": 29.99,
-        "imagen": "./IMAGENES/producto1.jpg",
-        "genero": "hombre",
+        "precio": 29.990,
+        "imagen": "./IMAGENES/producto1.jpeg",
+        "genero": "mujer",
         "tipo": "camisetas",
         "talla": ["s", "m", "l"]
       },
       {
         "id": 2,
-        "nombre": "Pantalón Tech",
-        "precio": 49.99,
-        "imagen": "./IMAGENES/producto2.jpg",
-        "genero": "hombre",
+        "nombre": "Conjunto SportTech",
+        "precio": 49.900,
+        "imagen": "./IMAGENES/producto2.jpeg",
+        "genero": "mujer",
         "tipo": "pantalones",
         "talla": ["m", "l"]
       },
       {
         "id": 3,
         "nombre": "Blusa Futurista",
-        "precio": 34.99,
+        "precio": 78.990,
         "imagen": "./IMAGENES/producto3.jpg",
         "genero": "mujer",
         "tipo": "camisetas",
@@ -30,7 +30,7 @@
       {
         "id": 4,
         "nombre": "Leggings Neón",
-        "precio": 39.99,
+        "precio": 39.900,
         "imagen": "./IMAGENES/producto4.jpg",
         "genero": "mujer",
         "tipo": "pantalones",
@@ -39,7 +39,7 @@
       {
         "id": 5,
         "nombre": "Chaqueta Digital",
-        "precio": 79.99,
+        "precio": 79.900,
         "imagen": "./IMAGENES/producto5.jpg",
         "genero": "hombre",
         "tipo": "chaquetas",
@@ -48,7 +48,7 @@
       {
         "id": 6,
         "nombre": "Vestido Holográfico",
-        "precio": 59.99,
+        "precio": 59.900,
         "imagen": "./IMAGENES/producto6.jpg",
         "genero": "mujer",
         "tipo": "vestidos",
@@ -57,7 +57,7 @@
       {
         "id": 7,
         "nombre": "Sudadera Neon",
-        "precio": 45.99,
+        "precio": 45.900,
         "imagen": "./IMAGENES/producto7.jpg",
         "genero": "hombre",
         "tipo": "camisetas",
