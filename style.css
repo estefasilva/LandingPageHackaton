@@ -22,6 +22,7 @@
 
 .navbar {
     border-bottom: 2px solid #2bd5e0;
+    position: sticky;
 }
 
 .navbar h1 {
@@ -130,6 +131,7 @@
 
 .shopping-list {
     display: flex;
+    position: sticky;
     flex-direction: column;
     justify-content: center;
     margin-right: 20px;
@@ -158,6 +160,7 @@
     background-color: #361f53;
     border-radius: 50px;
     padding: 10px;
+    margin-top: 10px;
 }
 
 .shop-list-item img {

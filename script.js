@@ -1,5 +1,16 @@
 //----------------- Funcionalidad Shopping cart -------------------
 
+//Clase completa
+
+class list{
+    constructor(name, cost, count){
+        this.name = name
+        this.cost = cost
+        this.count = count
+    }
+}
+
+
 //Clase para Items
 
 class item{
@@ -11,9 +22,14 @@ class item{
 }
 
 //items
-const item1 = new item("Zapatillas",50, 1);
-const item2 = new item("Busos", 70, 1)
-const item3 = new item("Yoger", 30, 1)
+const item1 = new item("Camiseta Cyberpunk", 29.99 , 1);
+const item2 = new item("Pantalón Tech", 49.99, 1)
+const item3 = new item("Blusa Futurista", 34.99, 1)
+const item4 = new item("Leggings Neón", 39.99, 1)
+const item5 = new item("Chaqueta Digital", 75.99, 1)
+const item6 = new item("Vestido Holográfico", 59.99, 1)
+const item7 = new item("Sudadera Neon", 45.99, 1)
+const item8 = new item("Falda Tecnológica", 42.99, 1)
 
 //Carrito
 let shoppingCart = [];
@@ -91,36 +107,32 @@ botonShopList.addEventListener('click', () => {
     }
 })
 
-//Limpiar lista
-const cleanButton = document.getElementById("clear-button");
-cleanButton.addEventListener('click', clearShoppingCart());
-
-//Añadiendo objetos a la lista
-const compra1 = document.getElementById("producto1");
-compra1.addEventListener('click', addShopItem(item2.name, item2.cost, item2.count))
-
-
-
 //Renderizar lista
 function renderList(){
     const padre = document.getElementById("shop-list-item-container");
-    for (let i in shoppingCart) {
+
+    while(padre.firstChild){
+        padre.removeChild(padre.firstChild)
+    }
+
+    for (let objetos in shoppingCart) {
 
         const contenedor = document.createElement('div');
         contenedor.classList.add("shop-list-item");
 
         const nombre = document.createElement('h6');
-        nombre.textContent = shoppingCart[i].name;
+        nombre.textContent = shoppingCart[objetos].name;
 
         const menos = document.createElement('span');
         menos.textContent = "-";
         menos.classList.add('less-items');
 
         const cantidad = document.createElement('h6');
-        cantidad.textContent = shoppingCart[i].count;
+        cantidad.textContent = shoppingCart[objetos].count;
 
         const mas = document.createElement('span');
         mas.textContent = "+";
+        mas.classList.add('more-items');
 
         const eliminar = document.createElement('span');
         eliminar.textContent = "X";
@@ -134,8 +146,26 @@ function renderList(){
 
         padre.appendChild(contenedor)
     }
+    //Total de la lista
+    const totalGlobal = document.getElementById("total-shop-list");
+    totalGlobal.textContent = totalCart();
 }
 
-//Total de la lista
-const totalGlobal = document.getElementById("total-shop-list");
-totalGlobal.textContent = totalCart();
+//Limpiar lista
+const cleanButton = document.getElementById("clear-button");
+cleanButton.addEventListener('click', clearShoppingCart, renderList);
+
+
+//Añadiendo objetos a la lista
+
+const compra1 = document.getElementById("producto1");
+compra1.addEventListener('click', () => {
+    addShopItem(item1.name, item1.cost, item1.count)
+    totalCart()
+});
+
+const compra2 = document.getElementById("producto2");
+compra2.addEventListener('click', () => {
+    addShopItem(item6.name, item6.cost, item6.count)
+    totalCart()
+})
