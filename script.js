@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //----------------- Funcionalidad Shopping cart -------------------
 
 //Clase completa
@@ -240,5 +239,3 @@ compra2.addEventListener('click', () => {
     addShopItem(item7.name, item7.cost, item7.count)
     totalCart()
 })
-=======
->>>>>>> origin/RamaMJ
