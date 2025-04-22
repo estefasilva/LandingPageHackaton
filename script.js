@@ -31,14 +31,9 @@ function addShopItem(name, cost, count){
     //Caso base
     let articulo = new item(name, cost, count);
     shoppingCart.push(articulo);
-    
+
+    renderList();
 }
-
-addShopItem("Zapatillas",50, 1)
-addShopItem("Zapatillas",50, 2)
-
-
-console.log(shoppingCart)
 
 function removeShopItem(name){
     for (let i in shoppingCart){
@@ -51,7 +46,8 @@ function removeShopItem(name){
             break;
         }
     }
-    
+    renderList();
+    totalCart();
 }
 
 // function countCart()? -> Contar carrito?
@@ -59,9 +55,9 @@ function removeShopItem(name){
 function totalCart(){
     let total = 0;
     for (let i in shoppingCart){
-        total += (shoppingCart[i].cost * shoppingCart[i].count);
+        total += ((shoppingCart[i].cost) * (shoppingCart[i].count));
     }
-    return total;
+    return total
 }
 
 function removeAllItemType(name){ 
@@ -101,15 +97,14 @@ cleanButton.addEventListener('click', clearShoppingCart());
 
 //Añadiendo objetos a la lista
 const compra1 = document.getElementById("producto1");
-compra1.addEventListener('click', addShopItem(item1.name, item1.cost, item1.count))
+compra1.addEventListener('click', addShopItem(item2.name, item2.cost, item2.count))
 
 
 
 //Renderizar lista
+function renderList(){
     const padre = document.getElementById("shop-list-item-container");
     for (let i in shoppingCart) {
-        // const imagen = document.createElement('img');
-        // imagen.src = "ruta";
 
         const contenedor = document.createElement('div');
         contenedor.classList.add("shop-list-item");
@@ -139,6 +134,7 @@ compra1.addEventListener('click', addShopItem(item1.name, item1.cost, item1.coun
 
         padre.appendChild(contenedor)
     }
+}
 
 //Total de la lista
 const totalGlobal = document.getElementById("total-shop-list");

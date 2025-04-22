@@ -28,6 +28,12 @@
     margin-left: 20px;
 }
 
+.navbar img {
+    height: 40px;
+    width: 200px;
+    object-fit: cover;
+}
+
 .nav-link:hover {
     color: #e5ebf5;
 }
