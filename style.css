@@ -1,5 +1,110 @@
 /* header */
+.color-1 {
+    background-color: #252838;
+}
 
+.color-2 {
+    background-color: #2bd5e0;
+}
+
+.color-3 {
+    background-color: #361f53;
+}
+
+.texto-1 {
+    color: #e5ebf5;
+    font-family: 'Roboto';
+}
+
+.navbar h1 {
+    font-family: 'Audiowide';
+}
+
+.navbar {
+    border-bottom: 2px solid #2bd5e0;
+}
+
+.navbar h1 {
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #e5ebf5;
+}
+
+.nav-link:visited, /* Elmina los colores visitados */
+.nav-link:focus,
+.nav-link:active {
+  color: #e5ebf5;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+#titulo-principal {
+    margin: 0;
+    text-align: center;
+    background-color: #252838;
+    color: #e5ebf5;
+    padding: 10px 0;
+}
+
+#subtitulo-principal {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0px;
+    background-color: #252838;
+    color: #e5ebf5;
+    font-family: 'Exo 2';
+}
+
+.shop-cart {
+    margin-right: 20px;
+    background-color: #2bd5e0;
+    border-radius: 15px;
+    padding: 0px 25px;
+    cursor: pointer;
+    border: 2px solid #361f53;
+    box-shadow: 0px 0px 10px rgba(43, 213, 224, 0.3);
+}
+
+.shop-cart svg {
+    height: 35px;
+    width: 35px;
+    color: #252838;
+}
+
+.carousel-item {
+    background-color: #361f53;
+}
+
+.carousel-item h2 {
+    color: #e5ebf5;
+    font-family: 'Audiowide';
+}
+
+.carousel-item p {
+    margin-right: 100px;
+    color: #e5ebf5;
+    font-family: 'Roboto';
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    margin-right: 80px;
+}
+
+.carousel-item img {
+    border: 1px solid #2bd5e0;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(43, 213, 224, 0.3);
+}
 /* catalogo */
 
 /* Teconologia */
