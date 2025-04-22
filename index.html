@@ -5,45 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header><!-- Andres -->
 
     </header> <!-- Andres -->
 
-    <main class="catalogo container py-4">
-        <!-- Filtros -->
-        <div class="catalogo__filtros">
-            <div class="catalogo__filtro-grupo">
-                <h3 class="catalogo__filtro-titulo">Género</h3>
-                <div class="catalogo__botones">
-                    <button class="catalogo__boton catalogo__boton--activo" data-filtro="genero" data-valor="hombre">Hombre</button>
-                    <button class="catalogo__boton" data-filtro="genero" data-valor="mujer">Mujer</button>
-                </div>
-            </div>
-            
-            <div class="catalogo__filtro-grupo">
-                <h3 class="catalogo__filtro-titulo">Tipo</h3>
-                <div class="catalogo__botones">
-                    <button class="catalogo__boton catalogo__boton--activo" data-filtro="tipo" data-valor="todos">Todos</button>
-                    <button class="catalogo__boton" data-filtro="tipo" data-valor="camisetas">Camisetas</button>
-                    <button class="catalogo__boton" data-filtro="tipo" data-valor="pantalones">Pantalones</button>
-                </div>
-            </div>
-            
-            <div class="catalogo__filtro-grupo">
-                <h3 class="catalogo__filtro-titulo">Talla</h3>
-                <div class="catalogo__botones">
-                    <button class="catalogo__boton catalogo__boton--activo" data-filtro="talla" data-valor="todas">Todas</button>
-                    <button class="catalogo__boton" data-filtro="talla" data-valor="s">S</button>
-                    <button class="catalogo__boton" data-filtro="talla" data-valor="m">M</button>
-                    <button class="catalogo__boton" data-filtro="talla" data-valor="l">L</button>
-                </div>
-            </div>
-        </div>
-        
+
+
+
         <!-- Contenedor del Catálogo -->
+        <main class="catalogo container py-4">
+            <!-- Filtros -->
+            <div class="catalogo__filtros">
+                <div class="catalogo__filtro-grupo">
+                    <h3 class="catalogo__filtro-titulo">Género</h3>
+                    <div class="catalogo__botones">
+                        <button class="catalogo__boton catalogo__boton--activo" data-filtro="genero" data-valor="hombre">Hombre</button>
+                        <button class="catalogo__boton" data-filtro="genero" data-valor="mujer">Mujer</button>
+                    </div>
+                </div>
+                
+                <div class="catalogo__filtro-grupo">
+                    <h3 class="catalogo__filtro-titulo">Tipo</h3>
+                    <div class="catalogo__botones">
+                        <button class="catalogo__boton catalogo__boton--activo" data-filtro="tipo" data-valor="todos">Todos</button>
+                        <button class="catalogo__boton" data-filtro="tipo" data-valor="camisetas">Camisetas</button>
+                        <button class="catalogo__boton" data-filtro="tipo" data-valor="pantalones">Pantalones</button>
+                    </div>
+                </div>
+                
+                <div class="catalogo__filtro-grupo">
+                    <h3 class="catalogo__filtro-titulo">Talla</h3>
+                    <div class="catalogo__botones">
+                        <button class="catalogo__boton catalogo__boton--activo" data-filtro="talla" data-valor="todas">Todas</button>
+                        <button class="catalogo__boton" data-filtro="talla" data-valor="s">S</button>
+                        <button class="catalogo__boton" data-filtro="talla" data-valor="m">M</button>
+                        <button class="catalogo__boton" data-filtro="talla" data-valor="l">L</button>
+                    </div>
+                </div>
+            </div>
+
+
         <div class="catalogo__container">
             <!-- Navegación del catálogo -->
             <div class="catalogo__navegacion">
@@ -55,7 +59,7 @@
                 <div class="catalogo__paginas">
                     <span class="catalogo__pagina-actual">1</span>
                     <span>/</span>
-                    <span class="catalogo__pagina-total">2</span>
+                    <span class="catalogo__pagina-total">3</span>
                 </div>
                 <button class="catalogo__nav-boton catalogo__nav-boton--next" aria-label="Siguiente página">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,8 +68,8 @@
                 </button>
             </div>
             
-            <!-- Tarjetas de productos -->
-            <div class="catalogo__productos row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <!-- Tarjetas de productos - AÑADIENDO CLASES DE BOOTSTRAP -->
+            <div class="catalogo__productos row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
                 <!-- Las tarjetas se generan con JS -->
             </div>
         </div>
