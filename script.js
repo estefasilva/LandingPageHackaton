@@ -156,20 +156,6 @@ const cleanButton = document.getElementById("clear-button");
 cleanButton.addEventListener('click', clearShoppingCart, renderList);
 
 
-//Añadiendo objetos a la lista
-
-const compra1 = document.getElementById("producto1");
-compra1.addEventListener('click', () => {
-    addShopItem(item1.name, item1.cost, item1.count)
-    totalCart()
-});
-
-const compra2 = document.getElementById("producto2");
-compra2.addEventListener('click', () => {
-    addShopItem(item6.name, item6.cost, item6.count)
-    totalCart()
-})
-
 // Variables básicas
 let productos = [];
 let filtroGenero = "hombre";
@@ -223,7 +209,7 @@ function mostrarProductos() {
         <div class="producto__info">
           <h3 class="producto__nombre">${p.nombre}</h3>
           <p class="producto__precio">$${p.precio.toFixed(2)}</p>
-          <button class="producto__boton" onclick="agregarAlCarrito(${p.id})">Añadir al carrito</button>
+          <button class="producto__boton" onclick="agregarAlCarrito(${p.id})" id="producto${p.id}">Añadir al carrito</button>
         </div>
       </div>
     </div>`;
@@ -234,6 +220,22 @@ function mostrarProductos() {
 }
 
 // Función simple para el botón
-function agregarAlCarrito(id) {
-  alert("Producto añadido al carrito");
-}
+// function agregarAlCarrito(id) {
+//   alert("Producto añadido al carrito");
+// }
+
+//Añadiendo objetos a la lista
+
+const compra1 = document.getElementById("producto5");
+compra1.addEventListener('click', () => {
+    
+    addShopItem(item5.name, item5.cost, item5.count)
+    totalCart()
+});
+
+const compra2 = document.getElementById("producto7");
+compra2.addEventListener('click', () => {
+    
+    addShopItem(item7.name, item7.cost, item7.count)
+    totalCart()
+})
