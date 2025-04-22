@@ -1,0 +1,112 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Camiseta Cyberpunk",
+        "precio": 29.99,
+        "imagen": "./IMAGENES/producto1.jpg",
+        "genero": "hombre",
+        "tipo": "camisetas",
+        "talla": ["s", "m", "l"]
+      },
+      {
+        "id": 2,
+        "nombre": "Pantalón Tech",
+        "precio": 49.99,
+        "imagen": "./IMAGENES/producto2.jpg",
+        "genero": "hombre",
+        "tipo": "pantalones",
+        "talla": ["m", "l"]
+      },
+      {
+        "id": 3,
+        "nombre": "Blusa Futurista",
+        "precio": 34.99,
+        "imagen": "./IMAGENES/producto3.jpg",
+        "genero": "mujer",
+        "tipo": "camisetas",
+        "talla": ["s", "m"]
+      },
+      {
+        "id": 4,
+        "nombre": "Leggings Neón",
+        "precio": 39.99,
+        "imagen": "./IMAGENES/producto4.jpg",
+        "genero": "mujer",
+        "tipo": "pantalones",
+        "talla": ["s", "m", "l"]
+      },
+      {
+        "id": 5,
+        "nombre": "Chaqueta Digital",
+        "precio": 79.99,
+        "imagen": "./IMAGENES/producto5.jpg",
+        "genero": "hombre",
+        "tipo": "chaquetas",
+        "talla": ["m", "l"]
+      },
+      {
+        "id": 6,
+        "nombre": "Vestido Holográfico",
+        "precio": 59.99,
+        "imagen": "./IMAGENES/producto6.jpg",
+        "genero": "mujer",
+        "tipo": "vestidos",
+        "talla": ["s", "m"]
+      },
+      {
+        "id": 7,
+        "nombre": "Sudadera Neon",
+        "precio": 45.99,
+        "imagen": "./IMAGENES/producto7.jpg",
+        "genero": "hombre",
+        "tipo": "camisetas",
+        "talla": ["s", "l"]
+      },
+      {
+        "id": 8,
+        "nombre": "Falda Tecnológica",
+        "precio": 42.99,
+        "imagen": "./IMAGENES/producto8.jpg",
+        "genero": "mujer",
+        "tipo": "faldas",
+        "talla": ["s", "m", "l"]
+      },
+      {
+        "id": 9,
+        "nombre": "Camiseta LED",
+        "precio": 32.99,
+        "imagen": "./IMAGENES/producto9.jpg",
+        "genero": "hombre",
+        "tipo": "camisetas",
+        "talla": ["m", "l"]
+      },
+      {
+        "id": 10,
+        "nombre": "Jeans Smart",
+        "precio": 54.99,
+        "imagen": "./IMAGENES/producto10.jpg",
+        "genero": "mujer",
+        "tipo": "pantalones",
+        "talla": ["s", "m"]
+      },
+      {
+        "id": 11,
+        "nombre": "Polo Quantum",
+        "precio": 37.99,
+        "imagen": "./IMAGENES/producto11.jpg",
+        "genero": "hombre",
+        "tipo": "camisetas",
+        "talla": ["s", "m", "l"]
+      },
+      {
+        "id": 12,
+        "nombre": "Top Espacial",
+        "precio": 29.99,
+        "imagen": "./IMAGENES/producto12.jpg",
+        "genero": "mujer",
+        "tipo": "camisetas",
+        "talla": ["s", "l"]
+      }
+    ]
+  }
